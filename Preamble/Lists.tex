@@ -1,0 +1,24 @@
+% Once you start inserting figures, tables and algorithms then they % will start appearing here in the lists. 
+%
+% The captions and names you give them will appear here. The 
+% numbering can either be:
+%
+%     Natural (1,2,3,...) 
+%     Sectional (1.1, 1.2 for chapter 1. 2.1, 2.2,... for chapter 2) 
+
+
+
+\listoffigures
+\addcontentsline{toc}{section}{List of Figures}
+\numberwithin{figure}{section}
+
+\listoftables
+\addcontentsline{toc}{section}{List of Tables}
+\numberwithin{table}{section}
+
+%Delete me if you're not putting algorithms in or you don't want it as contents. Same applies with the two above ^
+\listofalgorithms
+\addcontentsline{toc}{section}{List of Algorithms}
+\numberwithin{algorithm}{section}
+
+\newpage

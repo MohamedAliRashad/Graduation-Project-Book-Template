@@ -1,0 +1,81 @@
+% REPORT.TEX - University of Warwick Reports / Dissertations / Projects
+% 
+% Author - Chris Quinn 28/06/2020
+% 
+%
+% A template for students and masters dissertations, flexible for your
+% needs.
+%
+% This is the main .tex which will tell the compiler to include everything, 
+% each chapter/section is then in folders for convenience, as you include more 
+% images it can get harder and harder to manage.
+%
+% First things first, declaration of the document class along with the packages % we need.
+%
+% P.S. Sorry about the back to the future references, I used them to show some 
+% example work possible
+
+% Original template by Chris Quinn, University of Warwich
+% Adapted to SBU RPE template by Georgi D. Georgiev, SUNY Stony Brook
+
+
+\documentclass[pdftex,10pt,a4paper,oneside]{article}
+%Can change the pt, papersize etc.
+
+\usepackage{amsmath} %For both in-line and equation mode
+\numberwithin{equation}{section} %Numbering of our equations per section
+\usepackage{algorithm}
+\usepackage{algorithmic} %Algorithm styles, need to be nested for the example shown
+\usepackage{fancyhdr} %For our headers
+\usepackage{graphicx} %Inserting images
+\usepackage{lipsum}  %Blank text fill, delete me when finished
+\usepackage{setspace} %Spacing on the front page for crest and titles
+\usepackage[]{fncychap} % Styles can be Sonny, Lenny, Glenn, Conny, Rejne, Bjarne and Bjornstrup
+\usepackage[hyphens]{url} %Deals with hyphens in urls to make them clickable
+\usepackage{xcolor} %Great if you want coloured text
+\usepackage{tabularx}
+\usepackage{appendix} %Take a wild guess slick
+
+%KEEP THIS ONE LAST it's quite buggy, it allows you to click on links within the pdf and web links without changing the colour. The mouse cursor simply changes its icon to indicate to the user. Great tool - still awkward
+\usepackage[hidelinks]{hyperref}
+
+
+
+%This will tell the compiler to do the header style, page and spacing between the header and text
+\fancyhf{}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.2pt}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% DOCUMENT STARTS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%Lets begin the document, some chapters have examples in to give you an idea 
+\begin{document}
+
+\include{Report/Preamble/Frontpage}
+\include{Report/Preamble/Contents}
+\include{Report/Preamble/Abstract}
+% \include{Report/Preamble/Acknowledgements}
+% \include{Report/Preamble/Abbreviations}
+% \include{Report/Preamble/Lists}
+% \include{Report/Preamble/ChapterMods}
+
+
+\include{Report/Chapter1/Chapter1}
+\include{Report/Chapter2/Chapter2}
+\include{Report/Chapter3/Chapter3}
+\include{Report/Chapter4/Chapter4}
+\include{Report/Chapter5/Chapter5}
+% \include{Report/Chapter6/Chapter6}
+% \include{Report/Chapter7/Chapter7}
+% \include{Report/Chapter8/Chapter8}
+% \include{Report/Chapter9/Chapter9}
+%Keep adding folders as to your desires
+
+\bibliographystyle{plain}
+\bibliography{bibliography}
+
+
+\end{document}
