@@ -3,7 +3,7 @@
 </p>
 
 # Graduation-Project-Book-Template
-This template was developed for Faculty of Engineering Ain Shams University but can be configured for anything
+This template was developed for **Faculty of Engineering Ain Shams University** but can be configured for anything
 
 ## Overleaf
 The template was developed and submitted in [Overleaf](https://www.overleaf.com/) for future usage. (it's a good starting point for anyone wants to learn more about [LaTex](https://www.latex-project.org/))
