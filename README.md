@@ -13,6 +13,8 @@ The template is based on the works of University of Warwick [Here](https://www.o
 **Important Note**: Anyone who will use this work is expected to not change the names of the original Authors :rose:
 
 ## News
+**13 May 2022** New version of the template + Github Actions tutorial is added [Here](https://github.com/MohamedAliRashad/Graduation-Project-Book-Template/wiki/How-to-use-GitHub-Actions-to-build-Latex-documents-%3F)
+ 
 **6 July 2020** The template was approved by Overleaf maintainers and can be found [Here](https://www.overleaf.com/latex/templates/faculty-of-engineering-ain-shams-university-graduation-project-book-template/nypnspszgrtr)
 
 ## How to use ?
